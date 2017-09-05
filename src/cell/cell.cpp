@@ -6,18 +6,18 @@ Cell::Cell(
         const State state,
         const int cell_size = 3
         )
-    : RectangleShape(sf::Vector2f(cell_size, cell_size))
+    : shape(sf::Vector2f(cell_size, cell_size))
 {
     setState(state);
-    setPosition(position_X, position_Y);
+    shape.setPosition(position_X, position_Y);
 }
 
 void Cell::setState(State s){
     state = s;
 
     if(state == Dead)
-        setFillColor(sf::Color::Black);
+        shape.setFillColor(sf::Color::Black);
     else
-        setFillColor(sf::Color::White);
+        shape.setFillColor(sf::Color::White);
 }
 

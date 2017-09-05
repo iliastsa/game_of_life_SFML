@@ -1,6 +1,6 @@
 #include <SFML/Graphics.hpp>
 
-class Cell : public sf::RectangleShape{
+class Cell{
     public:
         enum State{
             Dead,
@@ -17,6 +17,9 @@ class Cell : public sf::RectangleShape{
         State getState(){ return state; }
         void setState(State s);
 
+        sf::RectangleShape getShape(){ return shape; }
+
     private:
         State state;
+        sf::RectangleShape shape;
 };

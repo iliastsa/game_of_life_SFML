@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    App app(800, 600, "Hello world!");
+    App app(100, 100, "Hello world!");
     app.run();
 
     return 0;
