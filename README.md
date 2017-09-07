@@ -7,7 +7,7 @@ The only external dependency this project has is SFML, which you can find [here]
 I suggest installing the library in the default directory, to avoid any issues with its detection from CMake.
 
 # Getting it to work
-To compile the download and compile the project, run the following commands:
+To download and compile the project, run the following commands:
 ```
 $ git clone https://github.com/iliastsa/game_of_life_SFML.git
 $ cd game_of_life_SFML
