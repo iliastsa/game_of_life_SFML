@@ -1,6 +1,6 @@
 # Game of Life w/ SFML
-C++ implementation of Conaway's Game of Life, using SFML
-![alt text](https://github.com/iliastsa/game_of_life_SFML/blob/master/demos/Glider_Gun_demo.gif "Glider Gun demonstration")
+C++ implementation of Conway's Game of Life, using SFML
+![Glider Gun demo](https://github.com/iliastsa/game_of_life_SFML/blob/master/demos/Glider_Gun_demo.gif "Glider Gun demonstration")
 
 # Dependencies
 The only external dependency this project has is SFML, which you can find [here](https://www.sfml-dev.org/).
